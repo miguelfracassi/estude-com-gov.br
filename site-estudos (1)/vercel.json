@@ -1,0 +1,12 @@
+{
+ "buildCommand": "python3 build.py",
+ "outputDirectory": "dist",
+ "cleanUrls": true,
+ "trailingSlash": true,
+ "functions": {
+  "api/chat.js": {
+   "maxDuration": 30,
+   "includeFiles": "content/**"
+  }
+ }
+}
